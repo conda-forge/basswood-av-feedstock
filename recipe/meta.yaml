@@ -1,4 +1,4 @@
-{% set version = "15.1.1" %}
+{% set version = "15.1.2" %}
 
 package:
   name: basswood-av
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/basswood-io/BasswoodAV/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 70b9d8f47fba91f9b56ca74c13eb9f90096df9699cce8b4729229fab1e0f0178
+  sha256: bf9c08801678073b9596be8ed05d1d4c7d553e7d7374a5e47ff0868a14fbec05
 
 build:
   number: 0
